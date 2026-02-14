@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-content/plugins/
+Disallow: /*.json$
+Disallow: /xmlrpc.php
+
+User-agent: *
+Crawl-delay: 1
+
+Sitemap: https://www.zaha-hadid.com/wp-sitemap.xml
